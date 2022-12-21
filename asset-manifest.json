@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bioInf/static/css/main.841549fc.css",
+    "main.js": "/bioInf/static/js/main.51179faf.js",
+    "static/js/787.b3f49826.chunk.js": "/bioInf/static/js/787.b3f49826.chunk.js",
+    "static/media/BLAST6.png": "/bioInf/static/media/BLAST6.0112108a9ab50db6e76e.png",
+    "static/media/Fasta_table.png": "/bioInf/static/media/Fasta_table.21d9968801d3642162ab.png",
+    "static/media/BLAST4.png": "/bioInf/static/media/BLAST4.ce05571a300df43fce94.png",
+    "static/media/BLOSUM62.png": "/bioInf/static/media/BLOSUM62.72fc9940adbd12db306d.png",
+    "static/media/PAM250.png": "/bioInf/static/media/PAM250.ef9e2ab161fda53d30d2.png",
+    "static/media/BLAST3.png": "/bioInf/static/media/BLAST3.d1a866aeb813c6d93240.png",
+    "static/media/BLAST2.png": "/bioInf/static/media/BLAST2.3c56d657e28dce67d2b3.png",
+    "static/media/Fasta_NC.png": "/bioInf/static/media/Fasta_NC.5d7f8c053cc4dd37b330.png",
+    "static/media/Pam_Blosum.jpg": "/bioInf/static/media/Pam_Blosum.d03d67eac9b5cc14c6f5.jpg",
+    "static/media/BLAST7.png": "/bioInf/static/media/BLAST7.51add8c13005cd6180b1.png",
+    "static/media/Fasta_Exm.png": "/bioInf/static/media/Fasta_Exm.28176e52258222618c4a.png",
+    "static/media/BLAST1.png": "/bioInf/static/media/BLAST1.bd415e5c82a97f0d230b.png",
+    "static/media/BLAST5.png": "/bioInf/static/media/BLAST5.f9c395ce6cb62d8b4ecb.png",
+    "index.html": "/bioInf/index.html",
+    "main.841549fc.css.map": "/bioInf/static/css/main.841549fc.css.map",
+    "main.51179faf.js.map": "/bioInf/static/js/main.51179faf.js.map",
+    "787.b3f49826.chunk.js.map": "/bioInf/static/js/787.b3f49826.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.841549fc.css",
+    "static/js/main.51179faf.js"
+  ]
+}
