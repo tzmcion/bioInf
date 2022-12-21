@@ -1,0 +1,22 @@
+.Local{
+    width:100vw;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+}
+
+.c50{
+    width:45%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.instruction{
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+}

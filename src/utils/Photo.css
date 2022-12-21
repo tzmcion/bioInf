@@ -1,0 +1,18 @@
+.PD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PD>img{
+    width:80%;
+    margin: 0;
+}
+
+.PD>h5{
+    margin: 6px auto;
+    width:70%;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}

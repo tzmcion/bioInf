@@ -1,0 +1,128 @@
+[{
+    "title":"Dopasowanie sekwencji",
+    "definition":"Sposób porównywania sekwencji kwasów nukleinowych lub sekwencji aminokwasowych w celu identyfikacji rejonów wskazujących podobieństwo"
+},
+{
+    "title":"Wyszykiwanie podobieństw / Similarity search",
+    "definition":"Główna/podstawowa część bioinformatyki. Formuje bazy motywów identyfikacji, identyfikacji genów, czy też wgląd do asocjacji. Dzięki podobieństwom możemy wyznaczać ścieżki ewolucyjne, tok rozumowania, znajdywać odporne na dane fagi organizmy itd..."
+},
+{
+    "title":"Homologi / Homologs",
+    "definition":"Posiadające wspólne ewolucyjne pochodzenie. W przypadku sekwencji homologicznych są one do siebie dosyc podobne, tzn. Zazwyczaj mają tą samą długośc (tyle samo par zasad), oraz duży proces identyczności. Są one idealne do porównywania przez algorytm Needlemana-Wunsha, czyli przez dopasowanie globalne i program needle"
+},
+{
+    "title":"Ortologi / Orthologs",
+    "definition":"Podzbiór homologów, których powstanie nastąpiło w wyniku specjacji"
+},
+{
+    "title":"Paralogi / Pharalogs",
+    "definition":"podzbiór homologów, które powstały w wyniku duplikacji"
+},
+{
+    "title":"Duplikacja / Duplication",
+    "definition":"Podwojenie fragmentu chromosomu na skutek niesymetrycznej wymiany odcinków chromatyd i czasem błędnego crossing-over"
+},
+{
+    "title":"Specjacja / Speciation",
+    "definition":"Proces Biologiczny, w wyniku którego powstają nowe gatunki"
+},
+{
+    "title":"Dopasowanie globalne sekwencji / Global sequence alignment",
+    "definition":"Porównanie 2 sekwencji w celu znalezenia optymalnego Dopasowania. Jest ono tworzone na podstawie tzw. macierzy punktacji. W przypadku globalnego dopasowania jest ona tworzona na podstawie aglorytmu Needlemana-Wunsha. Więcej o niej w zakładne 'Local alignment'"
+},
+{
+    "title":"Dopasowanie lokalne sekwencji / Local sequence alignment",
+    "definition":"Porównanie 2 sekwencji w celu znalezenia optymalnego Dopasowania. Jest ono tworzone na podstawie tzw. macierzy punktacji. W przypadku globalnego dopasowania jest ona tworzona na podstawie aglorytmu Smitha-Watermana. Więcej o niej w zakładne 'Local alignment'"
+},
+{
+    "title":"Otwarcie przerwy / Gap opening",
+    "definition":"Gdy w dopasowaniu mamy '-', mamy doczynienia z 'gap'. Jest to spowodowane tym, że optymalne dopasowanie sekwencji tak ustawiło je, że w danym miejscu zasada azotowa lub aminokwas nie ma swojego odpowiednika. Więcej o tym w zakładce 'Local alignment'"
+},
+{
+    "title":"Wydłużenie przerwy / Gap extension",
+    "definition":"Gdy przerwa jest dłuższa niż 1, mamy doczynienia z wydłużeniem przerwy. Zazwyczaj kara punktowa za to jest mniejsza niż za otwarce przerwy. Więcej o tym w 'Local alignment'"
+},
+{
+    "title":"Nieidentycznośc / Missmatch",
+    "definition":"Patrz 'Local alignemnt'"
+},
+{
+    "title":"Identycznośc / Match",
+    "definition":"Patrz 'Local alignment'"
+},
+{
+    "title":"Bazy danych sekwencji nukleotydowych / Nucleotide sequence Databases",
+    "definition":"Bazy danych posiadają zapisane sekwencji nukleotydowe, zazwyczaj w formacie FASTA, i kodzie IUB/IUPAC. Są trzy główne bazy danych : EMBL w Europie, NCBI w Ameryce Północnej, DDBJ w Japoni. Wszystkich danych z nich można bez problemowo używać."
+},
+{
+    "title":"format FASTA / FASTA format",
+    "definition":"",
+    "link":"FASTA"
+},
+{
+    "title":"Standardowy kod IUB/IUPAC / Standard code IUB/IUPAC",
+    "definition":"",
+    "link":"FASTA"
+},
+{
+    "title":"Macierze podstawień / Substitution matrices / Weighting matrices / Weighting Models",
+    "definition":"Macierze podstawień to standardowe punktowe macierze. Główne to Pam i Blosum",
+    "link":"PamBlosum"
+},
+{
+    "title":"BLAST",
+    "definition":""
+},
+{
+    "title":"Nulceotide BLAST / blastN",
+    "definition":""
+},
+{
+    "title":"Protein BLAST / blastP",
+    "definition":""
+},
+{
+    "title":"blastX",
+    "definition":""
+},
+{
+    "title":"tblastN",
+    "definition":""
+},
+{
+    "title":"tblastX",
+    "definition":""
+},
+{
+    "title":"Dychotomia",
+    "definition":""
+},
+{
+    "title":"Taksony",
+    "definition":""
+},
+{
+    "title":"Dychotomia",
+    "definition":""
+},
+{
+    "title":"Drzewo Filogenetyczne",
+    "definition":""
+},
+{
+    "title":"Drzewo Ukorzenione",
+    "definition":""
+},
+{
+    "title":"Odległość ewolucyjna w drzewie filogenetycznym",
+    "definition":"powinna to być długość gałęzi w dobrze zrobionym drzewie"
+},
+{
+    "title":"Dopasowanie wielopozycyjne",
+    "definition":""
+},
+{
+    "title":"Heurystyka/ program heurystyczne",
+    "definition":""
+}
+]

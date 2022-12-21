@@ -1,0 +1,15 @@
+.Main-Home{
+    padding: 20px;
+    width: 920px;
+    height: fit-content;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.Link-Home{
+    display: block;
+    color: rgb(25, 97, 93);
+    font-size: 16px;
+    
+}

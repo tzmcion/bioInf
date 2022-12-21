@@ -1,25 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/Home/Home';
+import Blast from './pages/Blast_Emulator/Blast';
+import Theory from './pages/Theory/Theory';
+import Fasta from './pages/Description_Pages/Fasta/Fasta';
+import PamBlosum from './pages/Description_Pages/PAM_BLOSUM/PB';
+import Local from './pages/Local/local';
 import './App.css';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element:<Home/>
+    },
+    {
+      path:'/Blast',
+      element: <Blast />
+    },
+    {
+      path:'/Theory',
+      element: <Theory />
+    },
+    {
+      path:'/theory/Fasta',
+      element:<Fasta />
+    },
+    {
+      path:'/theory/PamBlosum',
+      element:<PamBlosum />
+    },
+    {
+      path:'/local',
+      element: <Local />
+    },
+    {
+      path:'/Blast',
+      element:<Blast />
+    }
+  ])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RouterProvider router={router} />
   );
 }
 
